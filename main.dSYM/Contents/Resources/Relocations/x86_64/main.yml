@@ -1,0 +1,38 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/sachinkaul/Documents/GitHub/CoralCount/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000021E0, symSize: 0x2C0 }
+  - { offsetInCU: 0x5E, offset: 0x5E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000021E0, symSize: 0x2C0 }
+  - { offsetInCU: 0x168, offset: 0x168, size: 0x8, addend: 0x0, symName: _averageNeighborPixels, symObjAddr: 0x2C0, symBinAddr: 0x1000024A0, symSize: 0x230 }
+  - { offsetInCU: 0x22C, offset: 0x22C, size: 0x8, addend: 0x0, symName: _canny, symObjAddr: 0x4F0, symBinAddr: 0x1000026D0, symSize: 0x13E0 }
+  - { offsetInCU: 0x4B5, offset: 0x4B5, size: 0x8, addend: 0x0, symName: _enhanceEdges, symObjAddr: 0x18D0, symBinAddr: 0x100003AB0, symSize: 0x190 }
+  - { offsetInCU: 0x55C, offset: 0x55C, size: 0x8, addend: 0x0, symName: _applyEdgeThreshold, symObjAddr: 0x1A60, symBinAddr: 0x100003C40, symSize: 0x160 }
+  - { offsetInCU: 0x5E2, offset: 0x5E2, size: 0x8, addend: 0x0, symName: _detectCirclesHough, symObjAddr: 0x1BC0, symBinAddr: 0x100003DA0, symSize: 0x640 }
+  - { offsetInCU: 0x893, offset: 0x893, size: 0x8, addend: 0x0, symName: _cleanUpEdges, symObjAddr: 0x2200, symBinAddr: 0x1000043E0, symSize: 0x30 }
+  - { offsetInCU: 0x8B7, offset: 0x8B7, size: 0x8, addend: 0x0, symName: _fillRings, symObjAddr: 0x2230, symBinAddr: 0x100004410, symSize: 0x1E0 }
+  - { offsetInCU: 0x973, offset: 0x973, size: 0x8, addend: 0x0, symName: _clearNoise, symObjAddr: 0x2410, symBinAddr: 0x1000045F0, symSize: 0x1B0 }
+  - { offsetInCU: 0xA48, offset: 0xA48, size: 0x8, addend: 0x0, symName: _shrinkImage, symObjAddr: 0x25C0, symBinAddr: 0x1000047A0, symSize: 0x310 }
+  - { offsetInCU: 0xB84, offset: 0xB84, size: 0x8, addend: 0x0, symName: _expandImage, symObjAddr: 0x28D0, symBinAddr: 0x100004AB0, symSize: 0x310 }
+  - { offsetInCU: 0xCC0, offset: 0xCC0, size: 0x8, addend: 0x0, symName: _sobelEdgeDetection, symObjAddr: 0x2BE0, symBinAddr: 0x100004DC0, symSize: 0x340 }
+  - { offsetInCU: 0xDE1, offset: 0xDE1, size: 0x8, addend: 0x0, symName: _getMidpoint, symObjAddr: 0x2F20, symBinAddr: 0x100005100, symSize: 0x50 }
+  - { offsetInCU: 0xE0B, offset: 0xE0B, size: 0x8, addend: 0x0, symName: _convolve, symObjAddr: 0x2F70, symBinAddr: 0x100005150, symSize: 0x1D0 }
+  - { offsetInCU: 0xF33, offset: 0xF33, size: 0x8, addend: 0x0, symName: _createMask, symObjAddr: 0x3140, symBinAddr: 0x100005320, symSize: 0x470 }
+  - { offsetInCU: 0x1064, offset: 0x1064, size: 0x8, addend: 0x0, symName: _floodFillIterative, symObjAddr: 0x35B0, symBinAddr: 0x100005790, symSize: 0x552 }
+  - { offsetInCU: 0x26, offset: 0x129F, size: 0x8, addend: 0x0, symName: _createImage, symObjAddr: 0x0, symBinAddr: 0x100005CF0, symSize: 0xF0 }
+  - { offsetInCU: 0xD6, offset: 0x134F, size: 0x8, addend: 0x0, symName: _createImage, symObjAddr: 0x0, symBinAddr: 0x100005CF0, symSize: 0xF0 }
+  - { offsetInCU: 0x136, offset: 0x13AF, size: 0x8, addend: 0x0, symName: _deleteImage, symObjAddr: 0xF0, symBinAddr: 0x100005DE0, symSize: 0x60 }
+  - { offsetInCU: 0x168, offset: 0x13E1, size: 0x8, addend: 0x0, symName: _createMatrix, symObjAddr: 0x150, symBinAddr: 0x100005E40, symSize: 0xC0 }
+  - { offsetInCU: 0x1C8, offset: 0x1441, size: 0x8, addend: 0x0, symName: _createMatrixFromArray, symObjAddr: 0x210, symBinAddr: 0x100005F00, symSize: 0xD0 }
+  - { offsetInCU: 0x236, offset: 0x14AF, size: 0x8, addend: 0x0, symName: _deleteMatrix, symObjAddr: 0x2E0, symBinAddr: 0x100005FD0, symSize: 0x60 }
+  - { offsetInCU: 0x268, offset: 0x14E1, size: 0x8, addend: 0x0, symName: _readImage, symObjAddr: 0x340, symBinAddr: 0x100006030, symSize: 0x780 }
+  - { offsetInCU: 0x381, offset: 0x15FA, size: 0x8, addend: 0x0, symName: _writeImage, symObjAddr: 0xAC0, symBinAddr: 0x1000067B0, symSize: 0x410 }
+  - { offsetInCU: 0x432, offset: 0x16AB, size: 0x8, addend: 0x0, symName: _image2Matrix, symObjAddr: 0xED0, symBinAddr: 0x100006BC0, symSize: 0xB0 }
+  - { offsetInCU: 0x489, offset: 0x1702, size: 0x8, addend: 0x0, symName: _matrix2Image, symObjAddr: 0xF80, symBinAddr: 0x100006C70, symSize: 0x290 }
+  - { offsetInCU: 0x53D, offset: 0x17B6, size: 0x8, addend: 0x0, symName: _setPixel, symObjAddr: 0x1210, symBinAddr: 0x100006F00, symSize: 0x240 }
+  - { offsetInCU: 0x5BD, offset: 0x1836, size: 0x8, addend: 0x0, symName: _filledEllipse, symObjAddr: 0x1450, symBinAddr: 0x100007140, symSize: 0x170 }
+  - { offsetInCU: 0x688, offset: 0x1901, size: 0x8, addend: 0x0, symName: _filledRectangle, symObjAddr: 0x15C0, symBinAddr: 0x1000072B0, symSize: 0xF0 }
+  - { offsetInCU: 0x780, offset: 0x19F9, size: 0x8, addend: 0x0, symName: _line, symObjAddr: 0x16B0, symBinAddr: 0x1000073A0, symSize: 0x3A0 }
+  - { offsetInCU: 0x8A7, offset: 0x1B20, size: 0x8, addend: 0x0, symName: _rectangle, symObjAddr: 0x1A50, symBinAddr: 0x100007740, symSize: 0x1A0 }
+  - { offsetInCU: 0x973, offset: 0x1BEC, size: 0x8, addend: 0x0, symName: _ellipse, symObjAddr: 0x1BF0, symBinAddr: 0x1000078E0, symSize: 0x27B }
+...
